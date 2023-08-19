@@ -1,43 +1,181 @@
-<!DOCTYPE html>
+<!DO<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Página Web</title>
+    <title>Tu Negocio Local</title>
+    <link rel="stylesheet" href="styles.css">  
+    <style>
+        /* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilos para la sección de Inicio */
+    #inicio {
+        
+        background-color: #49B8F7;
+        padding: 50px;
+        text-align: center;
+    }
+    #inicio h1 {
+        color: #333;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    #inicio p {
+        color: #666;
+        font-size: 18px;
+    }
+    #inicio img {
+
+    background-image: url(https://images.unsplash.com/photo-1469981283837-561b3779462f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff; /* Asegura que el texto sea legible sobre la imagen de fondo */
+}
+
+
+    /* Estilos para la sección de Servicios */
+    #servicios {
+        background-color: #fff;
+        padding: 50px;
+    }
+    #servicios h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #servicios ul {
+        list-style: disc;
+        padding-left: 20px;
+        color: #666;
+        font-size: 16px;
+    }
+
+    /* Estilos para la sección de Quiénes Somos */
+    #quienes-somos {
+        background-color: #f4f4f4;
+        padding: 50px;
+    }
+    #quienes-somos h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #quienes-somos p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Estilos para la sección de Contacto */
+    #contacto {
+        background-color: #fff;
+        padding: 50px;
+    }
+    #contacto h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #contacto p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #contacto address {
+        margin-top: 20px;
+        color: #666;
+        font-size: 16px;
+    }
+    #contacto label {
+        display: block;
+        margin-top: 10px;
+        color: #333;
+        font-size: 16px;
+    }
+    #contacto input[type="text"],
+    #contacto input[type="email"],
+    #contacto textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    #contacto button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #contacto button[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    </style>
 </head>
 <body>
+
+<!-- Sección de Inicio -->
+<section id="inicio">
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>SERVIALUMINIOS</h1>
+        <p>Tu solución para vidrios y ventanas de calidad</p>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a...</p>
-        </section>
-        
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
-                <li>Servicio 3</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
-    </footer>
+    <img src="https://images.unsplash.com/photo-1469981283837-561b3779462f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Imagen de Inicio">
+</section>
+
+<!-- Sección de Servicios -->
+<section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+        <li>Ventaneria</li>
+        <li>Vidrios templados</li>
+        <li>Vidrios laminados</li>
+        <li>Divisiones de baño</li>
+        <li>Puertas</li>
+        <li>Instalación y mantenimiento</li>
+        <!-- Agrega más servicios aquí -->
+    </ul>
+</section>
+
+<!-- Sección de Quiénes Somos -->
+<section id="quienes-somos">
+    <h2>Acerca de Nosotros</h2>
+    <p>En SERVIAULIMINIOS, nuestra pasión es transformar espacios llenos de diseño y alta calidad. Desde nuestro inicio, hemos sido líderes en la industria de vidrios y ventanas, brindando soluciones innovadoras y estéticas que embellecen hogares y espacios comerciales. Nuestro compromiso con la calidad y la excelencia nos ha convertido en la elección preferida de quienes buscan la combinación perfecta entre funcionalidad y diseño.</p>
+</section>
+
+<!-- Sección de Contacto -->
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>¡Estamos aquí para ayudarte! Contáctanos para consultas, presupuestos y más.</p>
+    <address>
+        <li>Dirección: Calle 4 # 13 - 93 B/ Cadillal</li>
+        <li>Teléfono: 311 311 1267</li>
+        <li>Correo Electrónico: servialuminios@hotmail.com</li>
+    </address>
+    <form action="enviar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- Agrega más secciones aquí según sea necesario -->
+
 </body>
 </html>
